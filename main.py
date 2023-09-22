@@ -1,16 +1,16 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
-
-
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+marks = [90, 45, 64, 9, 17, 29]
+result = []
+for mark in marks:
+    if mark >=71:
+        print("A입니다")
+        result.append("A")
+    elif mark >=41:
+        print("B입니다")
+        result.append("B")
+    elif mark >=11:
+        print("C입니다")
+        result.append("C")
+    elif mark <=10:
+        print("D입니다")
+        result.append("D")
+print(result)
